@@ -1,0 +1,77 @@
+body {
+background: #ffdde1;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+font-family:Arial;
+}
+
+.fan {
+position:relative;
+}
+
+.card {
+width:120px;
+height:180px;
+position:absolute;
+perspective:1000px;
+cursor:pointer;
+}
+
+.card:nth-child(1){ transform:rotate(-30deg) translateY(120px);}
+.card:nth-child(2){ transform:rotate(-22deg) translateY(100px);}
+.card:nth-child(3){ transform:rotate(-14deg) translateY(80px);}
+.card:nth-child(4){ transform:rotate(-6deg) translateY(60px);}
+.card:nth-child(5){ transform:rotate(0deg) translateY(50px);}
+.card:nth-child(6){ transform:rotate(6deg) translateY(60px);}
+.card:nth-child(7){ transform:rotate(14deg) translateY(80px);}
+.card:nth-child(8){ transform:rotate(22deg) translateY(100px);}
+.card:nth-child(9){ transform:rotate(30deg) translateY(120px);}
+
+.card-inner {
+width:100%;
+height:100%;
+transition:transform 0.8s;
+transform-style:preserve-3d;
+position:relative;
+}
+
+.card.flipped .card-inner {
+transform:rotateY(180deg);
+}
+
+.card-front, .card-back {
+position:absolute;
+width:100%;
+height:100%;
+backface-visibility:hidden;
+border-radius:10px;
+background:white;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+}
+
+.card-front img {
+width:100%;
+height:100%;
+object-fit:cover;
+border-radius:10px;
+}
+
+.card-back {
+transform:rotateY(180deg);
+padding:10px;
+text-align:center;
+}
+
+button {
+margin-top:10px;
+padding:5px 10px;
+border:none;
+background:#ff4081;
+color:white;
+border-radius:5px;
+}
