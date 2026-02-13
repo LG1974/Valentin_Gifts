@@ -8,26 +8,22 @@ font-family:Arial;
 }
 
 .fan {
-position:relative;
+display:flex;
+gap:15px;
+flex-wrap:wrap;
+justify-content:center;
 }
+
 
 .card {
 width:120px;
 height:180px;
-position:absolute;
 perspective:1000px;
 cursor:pointer;
+position:relative;
 }
 
-.card:nth-child(1){ transform:rotate(-30deg) translateY(120px);}
-.card:nth-child(2){ transform:rotate(-22deg) translateY(100px);}
-.card:nth-child(3){ transform:rotate(-14deg) translateY(80px);}
-.card:nth-child(4){ transform:rotate(-6deg) translateY(60px);}
-.card:nth-child(5){ transform:rotate(0deg) translateY(50px);}
-.card:nth-child(6){ transform:rotate(6deg) translateY(60px);}
-.card:nth-child(7){ transform:rotate(14deg) translateY(80px);}
-.card:nth-child(8){ transform:rotate(22deg) translateY(100px);}
-.card:nth-child(9){ transform:rotate(30deg) translateY(120px);}
+
 
 .card-inner {
 width:100%;
@@ -37,9 +33,11 @@ transform-style:preserve-3d;
 position:relative;
 }
 
-.card.flipped .card-inner {
-transform:rotateY(180deg);
+..card.flipped {
+transform:scale(1.1);
+z-index:999;
 }
+
 
 .card-front, .card-back {
 position:absolute;
@@ -75,3 +73,4 @@ background:#ff4081;
 color:white;
 border-radius:5px;
 }
+
