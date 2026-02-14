@@ -41,9 +41,13 @@ transform-style:preserve-3d;
 position:relative;
 }
 .card.flipped {
-z-index:999;
-transform:scale(1.4) rotate(0deg) translateY(-40px) !important;
+position:fixed;
+top:50%;
+left:50%;
+transform:translate(-50%, -50%) scale(1.6);
+z-index:9999;
 }
+
 
 
 
@@ -90,6 +94,7 @@ button:hover {
 background:#ff3399;
 transform:scale(1.05);
 }
+
 
 
 
