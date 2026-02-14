@@ -16,7 +16,7 @@ justify-content:center;
 
 
 .card {
-width:125px;
+width:130px;
 height:180px;
 perspective:1000px;
 cursor:pointer;
@@ -73,6 +73,7 @@ background:#ff4081;
 color:white;
 border-radius:5px;
 }
+
 
 
 
