@@ -1,5 +1,5 @@
 body {
-background: #ffdde1;
+background: #fffff;
 display:flex;
 justify-content:center;
 align-items:center;
@@ -73,5 +73,6 @@ background:#ff4081;
 color:white;
 border-radius:5px;
 }
+
 
 
