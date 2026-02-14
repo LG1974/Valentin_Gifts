@@ -42,7 +42,7 @@ transform-style:preserve-3d;
 position:relative;
 }
 
-}
+
 .card.flipped {
 position:fixed;
 top:50%;
@@ -102,6 +102,7 @@ button:hover {
 background:#ff3399;
 transform:scale(1.05);
 }
+
 
 
 
