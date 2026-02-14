@@ -46,7 +46,9 @@ top:50%;
 left:50%;
 transform:translate(-50%, -50%) scale(1.6);
 z-index:9999;
+}
 
+.card.flipped .card-inner {
 transform:rotateY(180deg);
 }
 
@@ -97,6 +99,7 @@ button:hover {
 background:#ff3399;
 transform:scale(1.05);
 }
+
 
 
 
