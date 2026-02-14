@@ -108,40 +108,31 @@ transform:scale(1.05);
 }
 @media (max-width: 768px){
 
-body {
-height:auto;
-min-height:100vh;
-background-attachment:scroll;
-}
+  body {
+    height:auto;
+    min-height:100vh;
+    background-attachment:scroll;
+  }
 
-.card{
-  perspective:1000px;
-  -webkit-perspective:1000px;
-}
-width:120px;
-height:180px;
-perspective:1000px;
--webkit-perspective:1000px; /* EZ FONTOS */
-cursor:pointer;
-position:relative;
-}
+  .card {
+    width:80px;
+    height:120px;
+    perspective:1000px;
+    -webkit-perspective:1000px;
+  }
 
-.card.flipped {
-transform:translate(-50%, -50%) scale(1.2);
-}
+  .card.flipped {
+    transform:translate(-50%, -50%) scale(1.2);
+  }
 
-.card-back {
-font-size:14px;
-}
+  .card-back {
+    font-size:14px;
+  }
 
-button {
-padding:5px 10px;
-font-size:14px;
-}
-
-}
-.card.redeemed .card-back {
-background:#333;
+  button {
+    padding:5px 10px;
+    font-size:14px;
+  }
 }
 
 .redeemed-message {
@@ -149,6 +140,7 @@ margin-top:10px;
 color:#ff99cc;
 font-weight:bold;
 }
+
 
 
 
