@@ -32,3 +32,12 @@ alert("Beváltás elküldve ❤️");
 });
 }
 
+document.addEventListener("click", function(e){
+
+if(!e.target.closest(".card") && openedCard){
+openedCard.classList.remove("flipped");
+openedCard = null;
+}
+
+});
+
