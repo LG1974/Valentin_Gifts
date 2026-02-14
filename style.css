@@ -7,10 +7,12 @@ background-attachment: fixed;
 
 display:flex;
 justify-content:center;
-align-items:center;
+align-items:flex-start;
+padding-top:50px;
 height:100vh;
 font-family:Arial;
 }
+
 
 
 .fan {
@@ -88,6 +90,7 @@ button:hover {
 background:#ff3399;
 transform:scale(1.05);
 }
+
 
 
 
