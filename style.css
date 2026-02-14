@@ -129,6 +129,15 @@ font-size:14px;
 }
 
 }
+.card.redeemed .card-back {
+background:#333;
+}
+
+.redeemed-message {
+margin-top:10px;
+color:#ff99cc;
+font-weight:bold;
+}
 
 
 
