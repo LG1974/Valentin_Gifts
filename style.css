@@ -9,7 +9,7 @@ font-family:Arial;
 
 .fan {
 display:flex;
-gap:15px;
+gap:5px;
 flex-wrap:wrap;
 justify-content:center;
 }
@@ -73,6 +73,7 @@ background:#ff4081;
 color:white;
 border-radius:5px;
 }
+
 
 
 
