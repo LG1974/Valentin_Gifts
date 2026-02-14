@@ -8,7 +8,7 @@ background-attachment: fixed;
 display:flex;
 justify-content:center;
 align-items:flex-start;
-padding-top:50px;
+padding-top:25px;
 height:100vh;
 font-family:Arial;
 }
@@ -90,6 +90,7 @@ button:hover {
 background:#ff3399;
 transform:scale(1.05);
 }
+
 
 
 
