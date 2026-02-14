@@ -1,11 +1,17 @@
 body {
-background: #66ffff;
+background-image: url("letters/freesia.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
 display:flex;
 justify-content:center;
 align-items:center;
 height:100vh;
 font-family:Arial;
 }
+
 
 .fan {
 display:flex;
@@ -63,16 +69,27 @@ border-radius:15px;
 transform:rotateY(180deg);
 padding:10px;
 text-align:center;
+background:#222;
+color:white;
 }
 
 button {
 margin-top:10px;
-padding:5px 10px;
+padding:6px 12px;
 border:none;
-background:#ff4081;
+background:#e60073;
 color:white;
-border-radius:5px;
+border-radius:8px;
+cursor:pointer;
+transition:0.3s;
 }
+
+button:hover {
+background:#ff3399;
+transform:scale(1.05);
+}
+
+
 
 
 
