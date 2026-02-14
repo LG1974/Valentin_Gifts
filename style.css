@@ -102,6 +102,33 @@ button:hover {
 background:#ff3399;
 transform:scale(1.05);
 }
+@media (max-width: 768px){
+
+body {
+height:auto;
+min-height:100vh;
+background-attachment:scroll;
+}
+
+.card {
+width:80px;
+height:120px;
+}
+
+.card.flipped {
+transform:translate(-50%, -50%) scale(1.2);
+}
+
+.card-back {
+font-size:14px;
+}
+
+button {
+padding:5px 10px;
+font-size:14px;
+}
+
+}
 
 
 
