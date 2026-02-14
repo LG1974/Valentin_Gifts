@@ -1,7 +1,9 @@
 let openedCard = null;
 
-function flip(card){
+function flip(e,card){
 
+  e.stopPropagation();
+  
 // ha már van nyitott és nem ugyanarra kattintottunk
 if(openedCard && openedCard !== card){
 openedCard.classList.remove("flipped");
@@ -44,6 +46,7 @@ openedCard = null;
 }
 
 });
+
 
 
 
