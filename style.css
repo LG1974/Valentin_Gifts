@@ -32,11 +32,11 @@ transition:transform 0.8s;
 transform-style:preserve-3d;
 position:relative;
 }
-
-..card.flipped {
-transform:scale(1.1);
+.card.flipped {
 z-index:999;
+transform:scale(1.4) rotate(0deg) translateY(-40px) !important;
 }
+
 
 
 .card-front, .card-back {
@@ -73,6 +73,7 @@ background:#ff4081;
 color:white;
 border-radius:5px;
 }
+
 
 
 
