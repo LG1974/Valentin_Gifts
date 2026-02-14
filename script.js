@@ -27,10 +27,15 @@ emailjs.send("service_hia57nl","template_4d10e3l",{
 name:"Judit",
 gift:gift,
 email:"ludanyi555@gmail.com"
-}).then(function(){
+})
+.then(function(){
 alert("Beváltás elküldve ❤️");
+})
+.catch(function(error){
+alert("Hiba történt 😢");
+console.log(error);
 });
-}
+
 
 
 
