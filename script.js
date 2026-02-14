@@ -36,14 +36,7 @@ alert("Hiba történt 😢");
 console.log(error);
 });
 
-  document.addEventListener("click", function(e){
 
-if(openedCard && !openedCard.contains(e.target)){
-openedCard.classList.remove("flipped");
-openedCard = null;
-}
-
-});
 
 
 
