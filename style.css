@@ -40,6 +40,9 @@ transition:transform 0.8s;
 transform-style:preserve-3d;
 -webkit-transform-style:preserve-3d;
 position:relative;
+  
+/* EZ KELL MOBILRA */
+transform:translateZ(0);
 }
 
 .card.flipped .card-inner {
@@ -111,8 +114,12 @@ background-attachment:scroll;
 }
 
 .card {
-width:80px;
-height:120px;
+width:120px;
+height:180px;
+perspective:1000px;
+-webkit-perspective:1000px; /* EZ FONTOS */
+cursor:pointer;
+position:relative;
 }
 
 .card.flipped {
@@ -138,6 +145,7 @@ margin-top:10px;
 color:#ff99cc;
 font-weight:bold;
 }
+
 
 
 
